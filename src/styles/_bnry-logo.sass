@@ -1,0 +1,24 @@
+.bnry-logo
+  border: 5.5em solid #222
+  border-radius: 10em
+  height: 10em
+  position: relative
+  width: 22em
+
+  &::before,
+  &::after
+    background-color: #222
+    border-radius: 50%
+    content: ''
+    display: block
+    height: 6em
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    width: 6em
+
+  &::before
+    left: 9%
+
+  &::after
+    right: 9%

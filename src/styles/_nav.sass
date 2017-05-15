@@ -1,0 +1,98 @@
+.top-bar
+  background-color: #57b3db
+  color: #fff
+  display: block
+  font-family: 'klavikalight'
+  font-weight: bold
+  padding: .5em
+  text-align: center
+  text-decoration: none
+
+  .bnry-logo
+    border-color: #fff
+    display: inline-block
+    font-size: 2px
+
+    &::before,
+    &::after
+      background-color: #fff
+
+.task-nav
+  background-color: #222
+  text-align: center
+
+  a
+    color: #fff
+    display: inline-block
+    font-family: 'klavikalight'
+    padding: 1.5em 2em 2em
+    position: relative
+    text-decoration: none
+
+    &:hover
+      background-color: #666
+
+    div
+      margin-bottom: 1em
+
+    span
+      background-color: #fff
+      border-radius: 50%
+      content: ''
+      display: block
+      height: 8px
+      left: 50%
+      position: absolute
+      right: 50%
+      transform: translateX(-50%)
+      width: 8px
+
+    &:nth-of-type(2)
+      span
+        &:nth-of-type(1)
+          transform: translateX(-150%)
+
+        &:nth-of-type(2)
+          transform: translateX(50%)
+
+    &:nth-of-type(3)
+      span
+        &:nth-of-type(1)
+          transform: translateX(-150%) translateY(75%)
+
+        &:nth-of-type(2)
+          transform: translateX(50%) translateY(75%)
+
+        &:nth-of-type(3)
+          transform: translateX(-50%) translateY(-75%)
+
+    &:nth-of-type(4)
+      span
+        &:nth-of-type(1)
+          transform: translateX(-150%) translateY(85%)
+
+        &:nth-of-type(2)
+          transform: translateX(50%) translateY(85%)
+
+        &:nth-of-type(3)
+          transform: translateX(-150%) translateY(-85%)
+
+        &:nth-of-type(4)
+          transform: translateX(50%) translateY(-85%)
+
+    &:nth-of-type(5)
+      span
+        &:nth-of-type(1)
+          transform: translateX(-150%) translateY(110%)
+
+        &:nth-of-type(2)
+          transform: translateX(50%) translateY(110%)
+
+        &:nth-of-type(3)
+          transform: translateX(-150%) translateY(-110%)
+
+        &:nth-of-type(4)
+          transform: translateX(50%) translateY(-110%)
+
+        &:nth-of-type(5)
+          transform: translateX(-50%)
